@@ -77,9 +77,20 @@ cp -r antigravity-superpowers/workflows .agent/workflows
 
 | Workflow | Description |
 |----------|-------------|
-| `dev-workflow` | Development: Plan → Implement → Verify |
-| `bugfix-workflow` | Bug fix flow |
-| `review-workflow` | Code review flow |
+| `/dev` | Complete development: Plan → Implement → Verify |
+| `/bugfix` | Bug fix flow |
+
+### ⌨️ Slash Commands
+
+| Command | Description |
+|---------|-------------|
+| `/superpowers` | Show all available commands |
+| `/brainstorming` | Start brainstorming session |
+| `/writing-plans` | Create implementation plan |
+| `/tdd` | Start TDD workflow |
+| `/debug` | Start systematic debugging |
+| `/review` | Start code review |
+| `/verify` | Verification before completion |
 
 ### 🎯 Philosophy
 
@@ -161,11 +172,22 @@ cp -r antigravity-superpowers/workflows .agent/workflows
 
 ### 🔄 Workflows
 
-| Workflow | 描述 |
-|----------|------|
-| `dev-workflow` | 开发流程：规划 → 实施 → 验证 |
-| `bugfix-workflow` | Bug 修复流程 |
-| `review-workflow` | 代码审查流程 |
+| 命令 | 描述 |
+|------|------|
+| `/dev` | 开发流程：规划 → 实施 → 验证 |
+| `/bugfix` | Bug 修复流程 |
+
+### ⌨️ 斜杠命令
+
+| 命令 | 描述 |
+|------|------|
+| `/superpowers` | 显示所有可用命令 |
+| `/brainstorming` | 启动头脑风暴 |
+| `/writing-plans` | 编写实施计划 |
+| `/tdd` | 启动 TDD 工作流 |
+| `/debug` | 启动系统性调试 |
+| `/review` | 启动代码审查 |
+| `/verify` | 完成前验证 |
 
 ### 🎯 设计理念
 
