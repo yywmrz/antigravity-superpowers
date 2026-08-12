@@ -1,3 +1,5 @@
+
+
 # Antigravity Superpowers
 
 [中文](#中文) | [English](#english)
@@ -27,6 +29,7 @@ git clone https://github.com/yywmrz/antigravity-superpowers.git .agent
 # Option 2: Copy only what you need
 cp -r antigravity-superpowers/skills .agent/skills
 cp -r antigravity-superpowers/workflows .agent/workflows
+```
 
 ### 📸 Installed View
 
@@ -130,6 +133,7 @@ git clone https://github.com/yywmrz/antigravity-superpowers.git .agent
 # 方式2：只复制需要的文件
 cp -r antigravity-superpowers/skills .agent/skills
 cp -r antigravity-superpowers/workflows .agent/workflows
+```
 
 ### 📸 安装效果
 
